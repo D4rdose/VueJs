@@ -1,5 +1,9 @@
+<script setup>
+import {RouterView} from 'vue-router';
+</script>
+
 <template>
     <div>
-        <h1>Added Announcements</h1>
+        <RouterView />
     </div>
 </template>

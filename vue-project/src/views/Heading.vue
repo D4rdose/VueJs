@@ -1,14 +1,13 @@
 <script setup>
-    import {useRouter} from 'vue-router';
-    import AddChoices from '../components/AddChoices.vue';
-
-    const router = useRouter();
+    const showModal = () => {
+        console.log('hello');
+    }
 </script>
 
 <template>
     <div class="container">
         <h1>Create Announcement</h1>
-        <button @click="router.push(AddChoices)" class="createBtn">+</button>
+        <button @click="showModal" class="createBtn">+</button>
     </div>
 </template>
 

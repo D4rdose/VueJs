@@ -1,6 +1,6 @@
 <script setup>
   import Heading from './views/Heading.vue';
-  import {RouterView} from 'vue-router';
+  import AddedAnnouncement from './views/AddedAnnouncement.vue'
 </script>
 
 <template>
@@ -9,7 +9,7 @@
       <Heading />
     </div>
     <div class="AddedAnnouncementContainer">
-      <RouterView />
+      <AddedAnnouncement />
     </div>
   </div>
 </template>
